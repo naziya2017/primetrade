@@ -1,0 +1,16 @@
+npm start 
+
+> backend@1.0.0 start
+> node server.js
+
+Server running on port 5000
+MongoDB connected
+POST /api/auth/login 200 183.795 ms - 268
+GET /api/tasks 200 23.149 ms - 591
+GET /api/tasks 304 10.191 ms - -
+DELETE /api/tasks/693e68b212efc7c59545ab00 200 12.509 ms - 21
+GET /api/tasks 200 13.754 ms - 396
+POST /api/tasks 201 29.119 ms - 191
+GET /api/tasks 200 10.976 ms - 588
+POST /api/auth/register 201 168.331 ms - 29
+POST /api/auth/login 400 3.979 ms - 33
